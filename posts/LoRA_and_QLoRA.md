@@ -2,7 +2,6 @@
 date: 2025-09-18
 category: llm
 title: LoRA & QLoRA
-description: 大语言模型参数高效微调方法的原理与实践。
 ---
 
 # LoRA 与 QLoRA：从低秩适配到 4-bit 微调

@@ -2,7 +2,6 @@
 date: 2026-08-18
 category: other
 title: 《A Programming Paradigm for Spatiotemporal Composability》阅读分析
-description: 一个正在运行的软件系统，怎样才能像搭积木一样安全地添加、删除和替换组件，而不必重启整个系统？
 ---
 
 # 《A Programming Paradigm for Spatiotemporal Composability》阅读分析

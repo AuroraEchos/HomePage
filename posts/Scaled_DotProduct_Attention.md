@@ -1,7 +1,6 @@
 ---
 date: 2025-08-05
 category: llm
-description: 从矩阵计算出发拆解注意力机制的核心操作。
 title: Scaled Dot-Product Attention：缩放点积注意力
 ---
 

@@ -2,7 +2,6 @@
 date: 2026-06-01
 category: agent
 title: OpenAI Function Calling：协议与执行循环
-description: 从消息协议与执行循环理解 Function Calling。
 ---
 
 # OpenAI Function Calling：协议与执行循环

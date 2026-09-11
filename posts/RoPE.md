@@ -2,7 +2,6 @@
 date: 2025-09-10
 category: llm
 title: RoPE：旋转位置编码
-description: 旋转位置编码的直觉、公式与实现要点。
 ---
 
 # RoPE：旋转位置编码

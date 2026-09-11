@@ -2,7 +2,6 @@
 date: 2026-06-10
 category: other
 title: NAT Traversal：内网穿透原理
-description: 理解内网穿透中的地址转换、端口映射与通信路径。
 ---
 
 # NAT Traversal：内网穿透原理

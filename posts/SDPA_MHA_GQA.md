@@ -2,7 +2,6 @@
 date: 2025-09-01
 category: llm
 title: SDPA → MHA → GQA
-description: 注意力变体在表达能力、显存和推理效率之间的权衡。
 ---
 
 # SDPA → MHA → GQA 的演化路径

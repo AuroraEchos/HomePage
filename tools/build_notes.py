@@ -25,7 +25,7 @@ CATEGORY_LABELS = {
     "other": "Other",
 }
 VALID_CATEGORIES = set(CATEGORY_LABELS)
-VALID_FIELDS = {"date", "category", "title", "description", "listed"}
+VALID_FIELDS = {"date", "category", "title"}
 
 FRONT_MATTER_RE = re.compile(r"\A(?:\uFEFF)?---[ \t]*\r?\n(.*?)\r?\n---[ \t]*(?:\r?\n|\Z)", re.DOTALL)
 H1_RE = re.compile(r"^#[ \t]+(.+?)[ \t]*$", re.MULTILINE)
@@ -154,13 +154,6 @@ def collect_notes():
 
         errors.extend(validate_body(path, body))
 
-        listed_value = fields.get("listed", "true").lower()
-        if listed_value not in {"true", "false"}:
-            errors.append(f"{path.name}: listed 只能是 true 或 false")
-            continue
-        if listed_value == "false":
-            continue
-
         date = fields.get("date", "")
         if not validate_date(date):
             errors.append(f"{path.name}: date 必须是真实的 YYYY-MM-DD 日期")
@@ -179,7 +172,6 @@ def collect_notes():
                 "date": date.replace("-", "."),
                 "category": category,
                 "title": title,
-                "description": fields.get("description", ""),
                 "path": f"posts/{path.name}",
             })
 

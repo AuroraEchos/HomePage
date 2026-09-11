@@ -15,15 +15,13 @@
 
 ## 笔记管理
 
-笔记元数据（日期、分类、标题、简介）以 front-matter 形式写在每篇 Markdown 顶部，示例：
+笔记元数据（日期、分类、标题）以 front-matter 形式写在每篇 Markdown 顶部，示例：
 
 ```markdown
 ---
 date: 2026-08-01
 category: llm
 title: Agent Runtime Notes
-description: 梳理 Agent 运行时的核心设计与执行流程。
-listed: true
 ---
 
 # 正文标题
@@ -35,7 +33,7 @@ listed: true
 python3 tools/build_notes.py
 ```
 
-`date` 是已发布笔记的必填字段，必须是真实的 `YYYY-MM-DD` 日期。`category` 可取 `llm`、`agent`、`paper` 或 `other`，省略时使用 `other`；`title` 省略时取正文首个一级标题；`description` 可省略；`listed: false` 可隐藏草稿。
+`date` 是已发布笔记的必填字段，必须是真实的 `YYYY-MM-DD` 日期。`category` 可取 `llm`、`agent`、`paper` 或 `other`，省略时使用 `other`；`title` 省略时取正文首个一级标题。
 
 脚本会严格校验所有元数据，同时检查未闭合的代码围栏和失效的本地图片引用，再重新生成 `assets/js/notes-data.js`。该生成文件需要和代码一起提交，不要手动编辑。CI 或提交前可以使用下面的命令检查数据是否为最新：
 
@@ -61,4 +59,4 @@ python3 -m http.server 8000
 4. 选择 `main` 分支和 `/ (root)` 目录。
 5. 保存并等待部署完成。
 
-所有站内资源均使用相对路径。阅读器支持文章目录、阅读进度、代码高亮与复制、KaTeX 公式、Mermaid 图表、表格及 Markdown 相对路径图片，运行时不依赖 CDN。
+所有站内资源均使用相对路径。阅读器支持阅读进度、代码高亮与复制、KaTeX 公式、Mermaid 图表、表格及 Markdown 相对路径图片，运行时不依赖 CDN。

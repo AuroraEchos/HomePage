@@ -2,7 +2,6 @@
 date: 2025-07-10
 category: llm
 title: SwiGLU：门控前馈网络
-description: 现代 Transformer 前馈网络中的门控激活函数。
 ---
 
 # SwiGLU：门控前馈网络

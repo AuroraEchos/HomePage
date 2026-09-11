@@ -2,7 +2,6 @@
 date: 2026-04-30
 category: other
 title: PyTorch 高频核心算子
-description: 张量形状、线性代数、掩码与 Softmax 的高频操作地图。
 ---
 
 # PyTorch 高频核心算子

@@ -1,7 +1,6 @@
 ---
 date: 2025-09-15
 category: llm
-description: RMSNorm 的计算方式，以及它为何常见于现代 LLM。
 ---
 
 # RMSNorm

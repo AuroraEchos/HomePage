@@ -2,7 +2,6 @@
 date: 2025-09-20
 category: other
 title: Python Async/Await：协程与异步编程
-description: 用清晰的心智模型理解协程与异步程序。
 ---
 
 # Python Async/Await：协程与异步编程

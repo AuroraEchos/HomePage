@@ -2,8 +2,6 @@
 date: 2026-08-28
 category: agent
 title: PhoneAgent：状态与事件驱动架构
-description: 以 PhoneAgent 的 `state.py` 与 `events.py` 为例，理解“内部状态驱动控制流，事件流驱动观察与持久化”。
-listed: true
 ---
 
 # PhoneAgent：状态与事件驱动架构

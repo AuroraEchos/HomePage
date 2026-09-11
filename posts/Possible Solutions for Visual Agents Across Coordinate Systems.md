@@ -2,8 +2,6 @@
 date: 2026-08-25
 category: agent
 title: 视觉智能体的跨模型坐标协议
-description: 一次真实 Android 真机故障如何揭示视觉模型坐标协议的不确定性，以及如何用显式契约、零触摸协商、canonical 坐标、失败关闭和完整审计构建跨模型的可靠执行系统。
-listed: true
 ---
 
 # 视觉智能体的跨模型坐标协议

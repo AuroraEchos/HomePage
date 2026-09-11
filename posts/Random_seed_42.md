@@ -2,7 +2,6 @@
 date: 2025-06-15
 category: other
 title: 为什么随机种子常用 42？
-description: 可复现实验为什么仍然需要完整的上下文。
 ---
 
 # 为什么随机种子常用 42？

@@ -2,7 +2,6 @@
 date: 2026-07-10
 category: llm
 title: LLM 基础知识
-description: 从自回归解码、注意力机制、位置编码到前馈网络，梳理 LLM 的基础知识。
 ---
 
 # LLM 基础知识

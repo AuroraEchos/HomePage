@@ -3,11 +3,104 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="0; url=about/">
-  <title>Wenhao Liu</title>
-  <script>window.location.replace("about/");</script>
+  <meta name="description" content="刘文豪的个人主页，关注 Agent Engineering 与 LLM Systems。">
+  <meta property="og:title" content="刘文豪 · Wenhao Liu">
+  <meta property="og:description" content="Agent Engineering · LLM Systems">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://auroraechos.github.io/HomePage/">
+  <meta property="og:image" content="https://auroraechos.github.io/HomePage/assets/images/avatar-og.png">
+  <meta name="twitter:card" content="summary">
+  <title>刘文豪 · Wenhao Liu</title>
+  <link rel="icon" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <script defer src="assets/js/notes-data.js"></script>
+  <script defer src="assets/js/home.js"></script>
 </head>
-<body>
-  <p><a href="about/">进入介绍页面</a></p>
+<body id="top">
+  <a class="skip-link" href="#main-content">跳至正文</a>
+
+  <header class="masthead">
+    <div>
+      <h1>刘文豪</h1>
+    </div>
+    <nav aria-label="页内导航">
+      [<a href="#about">关于</a>]
+      [<a href="#projects">项目</a>]
+      [<a href="#notes">笔记</a>]
+      [<a href="#songbook">歌集</a>]
+    </nav>
+  </header>
+
+  <hr>
+
+  <main id="main-content">
+    <section id="about">
+      <h2>关于</h2>
+      <div class="intro">
+        <img src="assets/images/avatar-page.png" alt="刘文豪" width="120" height="120">
+        <div>
+          <p>我相信 AGI。我关注可理解、可调试、可靠的低熵 Agent 系统与大语言模型工程，正在寻找 Agent / LLM 工程方向的实习机会，希望与优秀的团队一起构建优雅、可控且高效的系统。</p>
+          <p><em>Building understandable, debuggable, and reliable agent systems — open to internships.</em></p>
+          <p><a href="https://github.com/AuroraEchos">GitHub</a> · <a href="mailto:flippedliu@outlook.com">Email</a></p>
+        </div>
+      </div>
+
+      <table class="facts">
+        <tbody>
+          <tr><th>教育</th><td>上海大学 · 通信与信息工程学院，硕士研究生（在读），预计 2028 年毕业</td></tr>
+          <tr><th>本科</th><td>2021 — 2026</td></tr>
+          <tr><th>方向</th><td>Agent Engineering · LLM Systems</td></tr>
+          <tr><th>理念</th><td>Minimal · Dense · Precise · Timeless</td></tr>
+          <tr><th>所在地</th><td>Shanghai, China</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="projects">
+      <h2>项目</h2>
+      <ol class="project-list">
+        <li>
+          <strong><a href="https://github.com/AuroraEchos/PhoneAgent">Phone-Agent</a></strong>
+          — 面向 Android 的端侧纯视觉 Agent，以最小运行时实现观察、推理、动作执行与验证闭环。
+          [<a href="https://auroraechos.github.io/PhoneAgent/">主页</a>]
+          <br><small>Python · ADB · VLM · GUI Agent</small>
+        </li>
+        <li>
+          <strong><a href="https://github.com/AuroraEchos/Memory-Agent">Memory-Agent</a></strong>
+          — 探索长期记忆、检索与个性化体验的 Agent 框架，聚焦可理解、可调试的记忆生命周期。
+          <br><small>LangGraph · Qdrant · PostgreSQL</small>
+        </li>
+        <li>
+          <strong><a href="https://github.com/AuroraEchos/Long-Term-Collaboration-Skill">Long-Term Collaboration Skill</a></strong>
+          — 用于恢复稳定思考方式、工程标准与协作偏好的轻量 AI Skill。
+          <br><small>AI Skill · Context · Alignment · Markdown</small>
+        </li>
+      </ol>
+    </section>
+
+    <section id="notes">
+      <h2>笔记</h2>
+      <div id="note-filters" class="filters" aria-label="按类别筛选笔记"></div>
+      <ul id="home-notes" class="note-list"><li>正在载入笔记……</li></ul>
+      <noscript><p>查看<a href="notes/">技术笔记目录</a>需要启用 JavaScript。</p></noscript>
+    </section>
+
+    <section id="songbook">
+      <h2>歌集</h2>
+      <p>一些关于夜晚、远方与故乡的苏联时期歌曲。</p>
+      <ul>
+        <li><a href="songs/#moscow-nights">《莫斯科郊外的晚上》</a> <span lang="ru">Подмосковные вечера</span></li>
+        <li><a href="songs/#under-the-balkan-stars">《在巴尔干的繁星下》</a> <span lang="ru">Под звёздами Балканскими</span></li>
+        <li><a href="songs/#katyusha">《喀秋莎》</a> <span lang="ru">Катюша</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <hr>
+
+  <footer>
+    <p>Last updated: 2026-09-12 · © Wenhao Liu</p>
+    <p><a href="#top">Back to top</a></p>
+  </footer>
 </body>
 </html>

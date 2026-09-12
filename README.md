@@ -1,17 +1,18 @@
 # Wenhao Liu — Static Personal Website
 
-纯静态个人技术网站，不需要 Node.js、数据库或构建步骤。整体视觉采用克制、紧凑的研究者主页风格，并内置 Markdown 阅读器。
+纯静态个人技术网站，不需要 Node.js、数据库或构建步骤。首页采用 90 年代学术主页风格，并内置 Markdown 阅读器。
 
 ## 页面
 
-- `about/`：关于，也是网站默认入口
+- `index.html`：一页式个人主页与网站默认入口
+- `about/`：旧版独立介绍页
 - `projects/`：公开项目
 - `notes/`：技术笔记列表与阅读页
 - `songs/`：喜欢的苏联时期歌曲与中俄歌词
 - `posts/`：Markdown 原文与笔记图片；新增正文继续放在这里
 - `assets/vendor/`：随站点部署的 Markdown、公式、图表和代码高亮依赖
 
-根目录的 `index.html` 会自动跳转到 `about/`。
+根目录的 `index.html` 汇总个人介绍、项目、技术笔记与歌集入口。
 
 ## 笔记管理
 

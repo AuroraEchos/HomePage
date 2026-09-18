@@ -1,4 +1,5 @@
 ---
+id: sdpa-mha-gqa
 date: 2025-09-01
 category: llm
 title: SDPA → MHA → GQA

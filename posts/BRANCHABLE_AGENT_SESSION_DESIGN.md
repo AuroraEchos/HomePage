@@ -1,4 +1,5 @@
 ---
+id: branchable-session
 date: 2026-09-11
 category: agent
 title: 一种面向 Agent 的可分支 Session 设计

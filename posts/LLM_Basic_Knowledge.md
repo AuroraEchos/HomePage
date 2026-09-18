@@ -1,4 +1,5 @@
 ---
+id: llm-basics
 date: 2026-07-10
 category: llm
 title: LLM 基础知识

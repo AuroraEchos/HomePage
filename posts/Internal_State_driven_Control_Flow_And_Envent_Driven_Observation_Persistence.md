@@ -1,4 +1,5 @@
 ---
+id: phoneagent-state
 date: 2026-08-28
 category: agent
 title: PhoneAgent：状态与事件驱动架构

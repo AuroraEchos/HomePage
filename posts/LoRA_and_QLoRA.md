@@ -1,4 +1,5 @@
 ---
+id: lora
 date: 2025-09-18
 category: llm
 title: LoRA & QLoRA

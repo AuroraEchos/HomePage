@@ -1,4 +1,5 @@
 ---
+id: python-async
 date: 2025-09-20
 category: other
 title: Python Async/Await：协程与异步编程

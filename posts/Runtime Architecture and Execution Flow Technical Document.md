@@ -1,4 +1,5 @@
 ---
+id: phoneagent-runtime
 date: 2026-08-12
 category: agent
 title: PhoneAgent v0.2.0：运行时架构与执行闭环

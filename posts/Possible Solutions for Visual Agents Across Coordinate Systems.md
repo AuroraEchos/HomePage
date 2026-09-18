@@ -1,4 +1,5 @@
 ---
+id: visual-coordinates
 date: 2026-08-25
 category: agent
 title: 视觉智能体的跨模型坐标协议

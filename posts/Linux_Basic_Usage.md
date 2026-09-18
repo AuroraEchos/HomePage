@@ -1,4 +1,5 @@
 ---
+id: linux-basics
 date: 2026-04-16
 category: other
 title: Linux 基础使用

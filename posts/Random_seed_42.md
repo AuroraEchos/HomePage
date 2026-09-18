@@ -1,4 +1,5 @@
 ---
+id: seed-42
 date: 2025-06-15
 category: other
 title: 为什么随机种子常用 42？

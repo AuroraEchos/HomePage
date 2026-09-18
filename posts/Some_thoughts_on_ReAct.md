@@ -1,4 +1,5 @@
 ---
+id: react
 date: 2026-05-21
 category: agent
 title: ReAct：推理—行动循环与错误恢复

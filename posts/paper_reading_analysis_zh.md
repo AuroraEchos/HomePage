@@ -1,4 +1,5 @@
 ---
+id: spatiotemporal-paper
 date: 2026-08-18
 category: other
 title: 《A Programming Paradigm for Spatiotemporal Composability》阅读分析

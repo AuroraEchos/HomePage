@@ -25,7 +25,8 @@ CATEGORY_LABELS = {
     "other": "Other",
 }
 VALID_CATEGORIES = set(CATEGORY_LABELS)
-VALID_FIELDS = {"date", "category", "title"}
+VALID_FIELDS = {"id", "date", "category", "title"}
+ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 FRONT_MATTER_RE = re.compile(r"\A(?:\uFEFF)?---[ \t]*\r?\n(.*?)\r?\n---[ \t]*(?:\r?\n|\Z)", re.DOTALL)
 H1_RE = re.compile(r"^#[ \t]+(.+?)[ \t]*$", re.MULTILINE)
@@ -141,6 +142,7 @@ def validate_body(path, body):
 def collect_notes():
     notes = []
     errors = []
+    seen_ids = {}
     paths = sorted(POSTS_DIR.glob("*.md"))
     if not paths:
         errors.append("posts/: 没有找到 Markdown 笔记")
@@ -153,6 +155,14 @@ def collect_notes():
             continue
 
         errors.extend(validate_body(path, body))
+
+        note_id = fields.get("id", "")
+        if not ID_RE.fullmatch(note_id):
+            errors.append(f"{path.name}: id 必须是由小写字母、数字和单个连字符组成的短标识")
+        elif note_id in seen_ids:
+            errors.append(f"{path.name}: id {note_id!r} 与 {seen_ids[note_id]} 重复")
+        else:
+            seen_ids[note_id] = path.name
 
         date = fields.get("date", "")
         if not validate_date(date):
@@ -167,8 +177,9 @@ def collect_notes():
         if not title or not title.strip():
             errors.append(f"{path.name}: title 缺失且正文没有一级标题")
 
-        if validate_date(date) and category in VALID_CATEGORIES and title and title.strip():
+        if ID_RE.fullmatch(note_id) and validate_date(date) and category in VALID_CATEGORIES and title and title.strip():
             notes.append({
+                "id": note_id,
                 "date": date.replace("-", "."),
                 "category": category,
                 "title": title,

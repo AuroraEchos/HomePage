@@ -1,4 +1,5 @@
 ---
+id: nat-traversal
 date: 2026-06-10
 category: other
 title: NAT Traversal：内网穿透原理

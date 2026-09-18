@@ -1,4 +1,5 @@
 ---
+id: swiglu
 date: 2025-07-10
 category: llm
 title: SwiGLU：门控前馈网络

@@ -1,4 +1,5 @@
 ---
+id: kv-cache
 date: 2026-05-20
 category: llm
 title: KV Cache：原理与推理加速

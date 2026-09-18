@@ -1,0 +1,148 @@
+html {
+  background: #fff;
+  color: #111;
+  font-family: "Times New Roman", "Songti SC", STSong, SimSun, "Noto Serif CJK SC", serif;
+}
+
+body {
+  max-width: 52rem;
+  margin: 2rem auto;
+  padding: 0 1.25rem;
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.25;
+}
+
+h2,
+h3,
+h4 {
+  margin-top: 1.75em;
+}
+
+section {
+  margin: 2.5rem 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 0.25rem 0.75rem 0.25rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+
+button {
+  font: inherit;
+}
+
+#note-filters button {
+  margin: 0 0.35rem 0.35rem 0;
+}
+
+article {
+  max-width: 48rem;
+  line-height: 1.45;
+}
+
+article p,
+article ul,
+article ol {
+  margin-top: 0.65em;
+  margin-bottom: 0.65em;
+}
+
+article h2,
+article h3,
+article h4 {
+  margin-top: 1.3em;
+  margin-bottom: 0.45em;
+}
+
+article li + li {
+  margin-top: 0.2rem;
+}
+
+article blockquote {
+  margin-left: 0;
+  padding-left: 1rem;
+  border-left: 3px solid #bbb;
+}
+
+article pre {
+  overflow-x: auto;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+}
+
+article code {
+  font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+
+article .katex-display,
+article .mermaid {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+article .mermaid {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+article .mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+article table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+article th,
+article td {
+  padding: 0.35rem 0.75rem;
+  border: 1px solid #bbb;
+}
+
+hr {
+  margin: 2rem 0;
+  border: 0;
+  border-top: 1px solid #aaa;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+@media (max-width: 40rem) {
+  body {
+    margin: 1rem auto;
+    padding: 0 1rem;
+  }
+
+  th,
+  td {
+    display: block;
+    padding-right: 0;
+  }
+}

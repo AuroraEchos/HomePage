@@ -1,4 +1,5 @@
 ---
+id: proxy-traffic
 date: 2026-05-09
 category: other
 title: 代理网络的流量链路

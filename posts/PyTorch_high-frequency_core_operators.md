@@ -1,4 +1,5 @@
 ---
+id: pytorch-ops
 date: 2026-04-30
 category: other
 title: PyTorch 高频核心算子

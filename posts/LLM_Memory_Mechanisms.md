@@ -1,4 +1,5 @@
 ---
+id: llm-memory
 date: 2026-04-06
 category: agent
 title: LLM 与 Agent 的记忆机制

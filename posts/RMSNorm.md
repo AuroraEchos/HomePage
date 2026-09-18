@@ -1,4 +1,5 @@
 ---
+id: rmsnorm
 date: 2025-09-15
 category: llm
 ---

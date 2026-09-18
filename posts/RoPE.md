@@ -1,4 +1,5 @@
 ---
+id: rope
 date: 2025-09-10
 category: llm
 title: RoPE：旋转位置编码

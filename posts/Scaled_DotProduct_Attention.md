@@ -1,4 +1,5 @@
 ---
+id: attention
 date: 2025-08-05
 category: llm
 title: Scaled Dot-Product Attention：缩放点积注意力

@@ -1,4 +1,5 @@
 ---
+id: ubuntu-chatgpt
 date: 2026-08-20
 category: other
 title: Ubuntu 26.04 上 ChatGPT 桌面端消息发送失败排查

@@ -1,6 +1,6 @@
 # Wenhao Liu — Static Personal Website
 
-纯静态个人技术网站，不需要 Node.js、数据库或构建步骤。页面使用语义化 HTML 和一份只负责基础可读性的共享 CSS；笔记由一个轻量 Markdown 阅读器呈现。
+纯静态个人技术网站，不需要 Node.js、数据库或构建步骤。页面使用语义化 HTML 和共享 CSS；笔记由自托管的 Vditor 静态预览引擎呈现。
 
 ## 页面
 
@@ -8,10 +8,7 @@
 - `notes/reader.html`：Markdown 笔记阅读器
 - `songs/`：喜欢的苏联时期歌曲与中俄歌词
 - `posts/`：Markdown 原文与笔记图片；新增正文继续放在这里
-- `assets/vendor/marked.js`：Markdown 解析器
-- `assets/vendor/purify.min.js`：解析结果的 HTML 安全清理
-- `assets/vendor/katex/`：数学公式渲染
-- `assets/vendor/mermaid.min.js`：Mermaid 图表渲染（按需加载）
+- `assets/vendor/vditor/`：Vditor 3.10.6 静态预览运行时，包含 Markdown、KaTeX、Mermaid 和代码高亮资源
 
 根目录的 `index.html` 是唯一的内容索引页，汇总个人介绍、项目、笔记与歌集入口。
 
@@ -62,4 +59,4 @@ python3 -m http.server 8000
 4. 选择 `main` 分支和 `/ (root)` 目录。
 5. 保存并等待部署完成。
 
-所有站内资源均使用相对路径。阅读器解析并安全输出 GFM，修正正文中的相对链接和图片路径，并支持 KaTeX 公式与 Mermaid 图表；运行时不依赖 CDN。
+所有站内资源均使用相对路径。阅读器由 Vditor 统一解析并安全输出 CommonMark/GFM，正文排版完全使用 Vditor 的 `light` 内容主题，共享的 `base.css` 不覆盖 `.vditor-reset` 内部样式。阅读器仍会修正正文中的相对链接和图片路径，并按需渲染 KaTeX 公式、Mermaid 图表与代码高亮；Mermaid 保持 `strict` 安全级别。运行时不依赖 CDN。Vditor 资源当前固定为 `3.10.6`，升级时需同步更新 HTML 中的版本标记并回归检查公式、图表和代码块。

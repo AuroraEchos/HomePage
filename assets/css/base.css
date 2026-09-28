@@ -48,78 +48,54 @@ li + li {
   margin-top: 0.5rem;
 }
 
-button {
-  font: inherit;
-}
-
-#note-filters button {
-  margin: 0 0.35rem 0.35rem 0;
-}
-
-article {
+article:not(.vditor-reset) {
   max-width: 48rem;
   line-height: 1.45;
 }
 
-article p,
-article ul,
-article ol {
+article:not(.vditor-reset) p,
+article:not(.vditor-reset) ul,
+article:not(.vditor-reset) ol {
   margin-top: 0.65em;
   margin-bottom: 0.65em;
 }
 
-article h2,
-article h3,
-article h4 {
+article:not(.vditor-reset) h2,
+article:not(.vditor-reset) h3,
+article:not(.vditor-reset) h4 {
   margin-top: 1.3em;
   margin-bottom: 0.45em;
 }
 
-article li + li {
+article:not(.vditor-reset) li + li {
   margin-top: 0.2rem;
 }
 
-article blockquote {
+article:not(.vditor-reset) blockquote {
   margin-left: 0;
   padding-left: 1rem;
   border-left: 3px solid #bbb;
 }
 
-article pre {
+article:not(.vditor-reset) pre {
   overflow-x: auto;
   padding: 0.75rem;
   border: 1px solid #ccc;
   background: #f7f7f7;
 }
 
-article code {
+article:not(.vditor-reset) code {
   font-family: ui-monospace, "Cascadia Mono", Consolas, monospace;
 }
 
-article .katex-display,
-article .mermaid {
-  max-width: 100%;
-  overflow-x: auto;
-}
-
-article .mermaid {
-  margin: 1rem 0;
-  text-align: center;
-}
-
-article .mermaid svg {
-  max-width: 100%;
-  height: auto;
-}
-
-article table {
+article:not(.vditor-reset) table {
   display: block;
   max-width: 100%;
   overflow-x: auto;
 }
 
-article th,
-article td {
+article:not(.vditor-reset) th,
+article:not(.vditor-reset) td {
   padding: 0.35rem 0.75rem;
   border: 1px solid #bbb;
 }
@@ -138,11 +114,5 @@ footer {
   body {
     margin: 1rem auto;
     padding: 0 1rem;
-  }
-
-  th,
-  td {
-    display: block;
-    padding-right: 0;
   }
 }

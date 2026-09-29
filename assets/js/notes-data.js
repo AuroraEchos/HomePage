@@ -2,9 +2,7 @@
 // 修改 posts/ 下的 front-matter 后运行：python3 tools/build_notes.py
 window.noteCatalog = {
   "categoryLabels": {
-    "llm": "LLM",
     "agent": "Agent",
-    "paper": "Paper Reading",
     "other": "Other"
   },
   "notes": [
@@ -13,7 +11,7 @@ window.noteCatalog = {
       "date": "2026.09.17",
       "category": "agent",
       "title": "Agent 多工具调用与并发执行编排问题",
-      "path": "posts/Agent 多工具调用与并发执行编排问题（优化版）.md"
+      "path": "posts/Agent 多工具调用与并发执行编排问题.md"
     },
     {
       "id": "branchable-session",
@@ -44,25 +42,11 @@ window.noteCatalog = {
       "path": "posts/Ubuntu_26_04_LTS_ChatGPT.md"
     },
     {
-      "id": "spatiotemporal-paper",
-      "date": "2026.08.18",
-      "category": "other",
-      "title": "《A Programming Paradigm for Spatiotemporal Composability》阅读分析",
-      "path": "posts/paper_reading_analysis_zh.md"
-    },
-    {
       "id": "phoneagent-runtime",
       "date": "2026.08.12",
       "category": "agent",
       "title": "PhoneAgent v0.2.0：运行时架构与执行闭环",
       "path": "posts/Runtime Architecture and Execution Flow Technical Document.md"
-    },
-    {
-      "id": "llm-basics",
-      "date": "2026.07.10",
-      "category": "llm",
-      "title": "LLM 基础知识",
-      "path": "posts/LLM_Basic_Knowledge.md"
     },
     {
       "id": "nat-traversal",
@@ -84,13 +68,6 @@ window.noteCatalog = {
       "category": "agent",
       "title": "ReAct：推理—行动循环与错误恢复",
       "path": "posts/Some_thoughts_on_ReAct.md"
-    },
-    {
-      "id": "kv-cache",
-      "date": "2026.05.20",
-      "category": "llm",
-      "title": "KV Cache：原理与推理加速",
-      "path": "posts/KV_Cache.md"
     },
     {
       "id": "proxy-traffic",
@@ -128,53 +105,11 @@ window.noteCatalog = {
       "path": "posts/async & await in python.md"
     },
     {
-      "id": "lora",
-      "date": "2025.09.18",
-      "category": "llm",
-      "title": "LoRA & QLoRA",
-      "path": "posts/LoRA_and_QLoRA.md"
-    },
-    {
-      "id": "rmsnorm",
-      "date": "2025.09.15",
-      "category": "llm",
-      "title": "RMSNorm",
-      "path": "posts/RMSNorm.md"
-    },
-    {
-      "id": "rope",
-      "date": "2025.09.10",
-      "category": "llm",
-      "title": "RoPE：旋转位置编码",
-      "path": "posts/RoPE.md"
-    },
-    {
-      "id": "sdpa-mha-gqa",
-      "date": "2025.09.01",
-      "category": "llm",
-      "title": "SDPA → MHA → GQA",
-      "path": "posts/SDPA_MHA_GQA.md"
-    },
-    {
       "id": "mf5681",
       "date": "2025.08.23",
       "category": "other",
       "title": "海康威视 MF5681（800 万 4K USB 摄像头）Ubuntu 使用记录",
       "path": "posts/MF5681.md"
-    },
-    {
-      "id": "attention",
-      "date": "2025.08.05",
-      "category": "llm",
-      "title": "Scaled Dot-Product Attention：缩放点积注意力",
-      "path": "posts/Scaled_DotProduct_Attention.md"
-    },
-    {
-      "id": "swiglu",
-      "date": "2025.07.10",
-      "category": "llm",
-      "title": "SwiGLU：门控前馈网络",
-      "path": "posts/Swish_Gated_Linear_Unit.md"
     },
     {
       "id": "seed-42",

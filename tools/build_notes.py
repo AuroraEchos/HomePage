@@ -19,9 +19,7 @@ POSTS_DIR = ROOT / "posts"
 OUT_PATH = ROOT / "assets" / "js" / "notes-data.js"
 
 CATEGORY_LABELS = {
-    "llm": "LLM",
     "agent": "Agent",
-    "paper": "Paper Reading",
     "other": "Other",
 }
 VALID_CATEGORIES = set(CATEGORY_LABELS)

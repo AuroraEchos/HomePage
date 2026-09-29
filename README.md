@@ -6,11 +6,10 @@
 
 - `index.html`：一页式个人主页与网站默认入口
 - `notes/reader.html`：Markdown 笔记阅读器
-- `songs/`：喜欢的苏联时期歌曲与中俄歌词
 - `posts/`：Markdown 原文与笔记图片；新增正文继续放在这里
 - `assets/vendor/vditor/`：Vditor 3.10.6 静态预览运行时，包含 Markdown、KaTeX、Mermaid 和代码高亮资源
 
-根目录的 `index.html` 是唯一的内容索引页，汇总个人介绍、项目、笔记与歌集入口。
+根目录的 `index.html` 是唯一的内容索引页，汇总个人介绍、项目与笔记入口。
 
 ## 笔记管理
 
@@ -20,7 +19,7 @@
 ---
 id: agent-runtime
 date: 2026-08-01
-category: llm
+category: agent
 title: Agent Runtime Notes
 ---
 
@@ -33,7 +32,7 @@ title: Agent Runtime Notes
 python3 tools/build_notes.py
 ```
 
-`id` 和 `date` 是已发布笔记的必填字段。`id` 是用于公开链接的稳定短标识，只能包含小写字母、数字和连字符，并且不能重复；`date` 必须是真实的 `YYYY-MM-DD` 日期。`category` 可取 `llm`、`agent`、`paper` 或 `other`，省略时使用 `other`；`title` 省略时取正文首个一级标题。
+`id` 和 `date` 是已发布笔记的必填字段。`id` 是用于公开链接的稳定短标识，只能包含小写字母、数字和连字符，并且不能重复；`date` 必须是真实的 `YYYY-MM-DD` 日期。`category` 可取 `agent` 或 `other`，省略时使用 `other`；`title` 省略时取正文首个一级标题。
 
 脚本会严格校验所有元数据，同时检查未闭合的代码围栏和失效的本地图片引用，再重新生成 `assets/js/notes-data.js`。该生成文件需要和代码一起提交，不要手动编辑。CI 或提交前可以使用下面的命令检查数据是否为最新：
 

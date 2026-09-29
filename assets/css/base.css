@@ -53,6 +53,10 @@ article:not(.vditor-reset) {
   line-height: 1.45;
 }
 
+.vditor-reset {
+  font-family: inherit;
+}
+
 article:not(.vditor-reset) p,
 article:not(.vditor-reset) ul,
 article:not(.vditor-reset) ol {

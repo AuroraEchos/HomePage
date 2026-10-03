@@ -11,68 +11,163 @@
   <meta property="og:image" content="https://haonox.github.io/HomePage/assets/images/avatar-og.png">
   <meta name="twitter:card" content="summary">
   <title>刘文豪 · Wenhao Liu</title>
-  <link rel="icon" href="assets/images/favicon.png">
-  <link rel="stylesheet" href="assets/css/base.css?v=20260928-note-tree">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon.png?v=20261003-terminal">
+  <link rel="stylesheet" href="assets/css/base.css?v=20261003-vintage">
   <script defer src="assets/js/notes-data.js?v=20260929-agent"></script>
-  <script defer src="assets/js/home.js?v=20260928-note-tree"></script>
+  <script defer src="assets/js/home.js?v=20261003-vintage"></script>
 </head>
 <body id="top">
-  <header>
-    <h1>刘文豪</h1>
-  </header>
+  <div class="page-shell">
+    <nav class="site-nav" aria-label="主要导航">
+      <a class="nav-link" href="#top">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#notes">Notes</a>
+      <a class="nav-link" href="https://github.com/haonox">GitHub</a>
+    </nav>
 
-  <hr>
-
-  <main id="main-content">
-    <section id="about">
-      <h2>关于</h2>
-      <div>
-        <img src="assets/images/avatar-page.png" alt="刘文豪" width="120" height="120">
-        <div>
-          <p>我相信 AGI。我关注可理解、可调试、可靠的低熵 Agent 系统，正在寻找 Agent 工程方向的实习机会，希望与优秀的团队一起构建优雅、可控且高效的系统。</p>
-          <p><a href="https://github.com/haonox">GitHub</a> · <a href="mailto:flippedliu@outlook.com">Email</a></p>
+    <header class="window hero-window">
+      <div class="window-header">
+        <span class="window-title">Wenhao Liu — Personal Homepage</span>
+        <div class="window-controls">
+          <button type="button" class="window-button" data-window-action="minimize" aria-label="最小化">_</button>
+          <button type="button" class="window-button" data-window-action="maximize" aria-label="最大化">□</button>
+          <button type="button" class="window-button" data-window-action="close" aria-label="关闭">×</button>
         </div>
       </div>
+      <div class="window-content hero-content">
+        <img class="avatar" src="assets/images/avatar-page.png?v=20261003-qq-person" alt="刘文豪" width="120" height="120">
+        <div class="hero-copy">
+          <p class="eyebrow">AGENT ENGINEERING / SHANGHAI</p>
+          <h1>刘文豪 <span>Wenhao Liu</span></h1>
+          <p class="hero-tagline">Building understandable, debuggable and reliable low-entropy agent systems.</p>
+          <div class="button-row">
+            <a class="button" href="mailto:flippedliu@outlook.com">Email Me</a>
+            <a class="button" href="https://github.com/haonox">View GitHub</a>
+          </div>
+        </div>
+      </div>
+    </header>
 
-      <table>
-        <tbody>
-          <tr><th>教育</th><td>上海大学 · 通信与信息工程学院，硕士研究生（在读），预计 2028 年毕业</td></tr>
-          <tr><th>本科</th><td>2021 — 2026</td></tr>
-          <tr><th>方向</th><td>Agent Engineering</td></tr>
-          <tr><th>理念</th><td>Minimal · Dense · Precise · Timeless</td></tr>
-        </tbody>
-      </table>
-    </section>
+    <div class="marquee" aria-label="当前状态">
+      <span>WELCOME TO MY CORNER OF THE WORLD WIDE WEB · OPEN TO AGENT ENGINEERING INTERNSHIPS</span>
+    </div>
 
-    <section id="projects">
-      <h2>项目</h2>
-      <ol>
-        <li>
-          <strong><a href="https://github.com/haonox/vPhone">vPhone</a></strong>
-          — 面向 Android 的端侧纯视觉 Agent，以最小运行时实现观察、推理、动作执行与验证闭环。
-          [<a href="https://haonox.github.io/PhoneAgent/">主页</a>]
-          <br><small>Python · ADB · VLM · GUI Agent</small>
-        </li>
-        <li>
-          <strong><a href="https://github.com/haonox/Memory-Agent">Memory-Agent</a></strong>
-          — 探索长期记忆、检索与个性化体验的 Agent 框架，聚焦可理解、可调试的记忆生命周期。
-          <br><small>LangGraph · Qdrant · PostgreSQL</small>
-        </li>
-      </ol>
-    </section>
+    <main id="main-content">
+      <section id="about" class="window">
+        <div class="window-header">
+          <span class="window-title">~/About.md</span>
+          <div class="window-controls">
+            <button type="button" class="window-button" data-window-action="minimize" aria-label="最小化">_</button>
+            <button type="button" class="window-button" data-window-action="maximize" aria-label="最大化">□</button>
+            <button type="button" class="window-button" data-window-action="close" aria-label="关闭">×</button>
+          </div>
+        </div>
+        <div class="window-content">
+          <div class="section-heading">
+            <span class="section-icon" aria-hidden="true">👤</span>
+            <div>
+              <h2>关于我</h2>
+              <p>ABOUT THIS USER</p>
+            </div>
+          </div>
+          <p class="lead">我相信 AGI。我关注可理解、可调试、可靠的低熵 Agent 系统，正在寻找 Agent 工程方向的实习机会，希望与优秀的团队一起构建优雅、可控且高效的系统。</p>
+          <table class="info-table">
+            <tbody>
+              <tr><th>教育</th><td>上海大学 · 通信与信息工程学院，硕士研究生（在读），预计 2028 年毕业</td></tr>
+              <tr><th>本科</th><td>2021 — 2026</td></tr>
+              <tr><th>方向</th><td>Agent Engineering</td></tr>
+              <tr><th>理念</th><td>Minimal · Dense · Precise · Timeless</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-    <section id="notes">
-      <h2>笔记</h2>
-      <div id="home-notes"><p>正在载入笔记……</p></div>
-      <noscript><p>笔记列表需要启用 JavaScript。</p></noscript>
-    </section>
+      <section id="projects" class="window">
+        <div class="window-header">
+          <span class="window-title">~/Projects/</span>
+          <div class="window-controls">
+            <button type="button" class="window-button" data-window-action="minimize" aria-label="最小化">_</button>
+            <button type="button" class="window-button" data-window-action="maximize" aria-label="最大化">□</button>
+            <button type="button" class="window-button" data-window-action="close" aria-label="关闭">×</button>
+          </div>
+        </div>
+        <div class="window-content">
+          <div class="section-heading">
+            <span class="section-icon" aria-hidden="true">💾</span>
+            <div>
+              <h2>项目</h2>
+              <p>SELECTED WORK</p>
+            </div>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-card-title"><span aria-hidden="true">📱</span> vPhone</div>
+              <p>面向 Android 的端侧纯视觉 Agent，以最小运行时实现观察、推理、动作执行与验证闭环。</p>
+              <p class="tech-line">Python · ADB · VLM · GUI Agent</p>
+              <div class="button-row">
+                <a class="button" href="https://github.com/haonox/vPhone">Github</a>
+                <a class="button" href="https://haonox.github.io/PhoneAgent/">Homepage</a>
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-card-title"><span aria-hidden="true">🧠</span> Memory-Agent</div>
+              <p>探索长期记忆、检索与个性化体验的 Agent 框架，聚焦可理解、可调试的记忆生命周期。</p>
+              <p class="tech-line">LangGraph · Qdrant · PostgreSQL</p>
+              <div class="button-row">
+                <a class="button" href="https://github.com/haonox/Memory-Agent">Github</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-  </main>
+      <section id="notes" class="window">
+        <div class="window-header">
+          <span class="window-title">~/Notes/</span>
+          <div class="window-controls">
+            <button type="button" class="window-button" data-window-action="minimize" aria-label="最小化">_</button>
+            <button type="button" class="window-button" data-window-action="maximize" aria-label="最大化">□</button>
+            <button type="button" class="window-button" data-window-action="close" aria-label="关闭">×</button>
+          </div>
+        </div>
+        <div class="window-content">
+          <div class="section-heading">
+            <span class="section-icon" aria-hidden="true">📚</span>
+            <div>
+              <h2>笔记</h2>
+              <p>TECHNICAL NOTES &amp; FIELD RECORDS</p>
+            </div>
+          </div>
+          <div id="home-notes" class="notes-explorer"><p>正在载入笔记……</p></div>
+          <noscript><p>笔记列表需要启用 JavaScript。</p></noscript>
+        </div>
+      </section>
+    </main>
 
-  <hr>
+    <footer class="window site-footer">
+      <div class="window-header">
+        <span class="window-title">System Information</span>
+        <div class="window-controls" aria-hidden="true">
+          <span class="window-button decorative">_</span>
+          <span class="window-button decorative">□</span>
+          <span class="window-button decorative">×</span>
+        </div>
+      </div>
+      <div class="window-content footer-content">
+        <span>© 2026 Wenhao Liu</span>
+        <span>Made with HTML, CSS &amp; curiosity</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </div>
 
-  <footer>
-    <p>Last updated: 2026-09-29 · © Wenhao Liu</p>
-  </footer>
+  <div class="status-bar" role="status">
+    <div class="status-left"><span class="status-item">● SYSTEM ONLINE</span></div>
+    <div class="status-right">
+      <span class="status-item">Last updated: 2026-10-03</span>
+      <time class="status-item" id="system-clock" aria-label="当前时间">--:--</time>
+    </div>
+  </div>
 </body>
 </html>

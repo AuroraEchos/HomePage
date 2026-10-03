@@ -2,6 +2,10 @@
 
 纯静态个人技术网站，不需要 Node.js、数据库或构建步骤。页面使用语义化 HTML 和共享 CSS；笔记由自托管的 Vditor 静态预览引擎呈现。
 
+## 视觉设计
+
+网站采用 90 年代末至 2000 年代初的桌面网页风格：粉色桌面背景、经典窗口标题栏、凸起按钮与底部状态栏。视觉语言参考并改编自 MIT 许可的 [Vintage Web Hugo Theme](https://github.com/madebydia/vintage-web-hugo-theme)，同时针对当前静态个人主页精简了博客侧栏、归档、分享和访客统计等组件。
+
 ## 页面
 
 - `index.html`：一页式个人主页与网站默认入口

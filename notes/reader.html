@@ -7,24 +7,46 @@
   <meta property="og:title" content="笔记 · Wenhao Liu">
   <meta property="og:description" content="Wenhao Liu 的笔记。">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://auroraechos.github.io/HomePage/notes/">
-  <meta property="og:image" content="https://auroraechos.github.io/HomePage/assets/images/avatar-og.png">
+  <meta property="og:url" content="https://haonox.github.io/HomePage/notes/">
+  <meta property="og:image" content="https://haonox.github.io/HomePage/assets/images/avatar-og.png">
   <meta name="twitter:card" content="summary">
   <title>笔记 · Wenhao Liu</title>
-  <link rel="icon" href="../assets/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../assets/images/favicon.png?v=20261003-terminal">
   <link rel="stylesheet" href="../assets/vendor/vditor/dist/index.css?v=3.10.6">
-  <link rel="stylesheet" href="../assets/css/base.css?v=20260929-songti">
+  <link rel="stylesheet" href="../assets/css/base.css?v=20261003-vintage">
   <script defer src="../assets/js/notes-data.js?v=20260929-agent"></script>
   <script defer src="../assets/vendor/vditor/dist/method.min.js?v=3.10.6"></script>
   <script defer src="../assets/js/reader.js?v=20260928-vditor"></script>
 </head>
 <body id="top">
-  <main id="main-content">
-    <p><a href="../">← 返回主页</a></p>
-    <h1 id="reader-title">正在载入…</h1>
-    <article id="article" class="vditor-reset" aria-live="polite"><p>正在读取 Markdown…</p></article>
-  </main>
-  <hr>
-  <footer><p>© Wenhao Liu · 笔记</p></footer>
+  <div class="reader-shell">
+    <div class="reader-toolbar"><a class="button" href="../">← 返回主页</a></div>
+    <main id="main-content" class="window reader-window">
+      <div class="window-header">
+        <span class="window-title">Wenhao Notes — Document Viewer</span>
+        <div class="window-controls" aria-hidden="true">
+          <span class="window-button decorative">_</span>
+          <span class="window-button decorative">□</span>
+          <span class="window-button decorative">×</span>
+        </div>
+      </div>
+      <div class="window-content">
+        <h1 id="reader-title" class="reader-title">正在载入…</h1>
+        <article id="article" class="vditor-reset" aria-live="polite"><p>正在读取 Markdown…</p></article>
+      </div>
+    </main>
+    <footer class="window site-footer">
+      <div class="window-header"><span class="window-title">Document Status</span></div>
+      <div class="window-content footer-content">
+        <span>© Wenhao Liu · Notes</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
+  </div>
+
+  <div class="status-bar" role="status">
+    <div class="status-left"><span class="status-item">● DOCUMENT READY</span></div>
+    <div class="status-right"><span class="status-item">Wenhao Notes</span></div>
+  </div>
 </body>
 </html>

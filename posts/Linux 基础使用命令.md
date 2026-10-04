@@ -2,10 +2,10 @@
 id: linux-basics
 date: 2026-04-16
 category: other
-title: Linux 基础使用
+title: 一些 Linux 基础使用命令
 ---
 
-# Linux 基础使用
+# 一些 Linux 基础使用命
 
 今天我们来介绍一些在实际开发工作中需要掌握的基础 Linux 开发环境，请注意我们接下来所介绍的内容基本满足企业“熟悉 Linux 开发环境”的要求，不涉及内核或运维深水区。我们按照日常使用频率进行。
 
